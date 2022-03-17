@@ -1,0 +1,7 @@
+.body_wrapper {
+  background: url(""./images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: inherit;
+}

@@ -1,0 +1,371 @@
+.page_form {
+  min-height: 100vh; /* vh - 100% от высоты страницы  */
+  background: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: inherit;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  height: 58px;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 79px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.logo:hover {
+  color: #236d47;
+  transition: 0.2s linear;
+}
+
+.input_assets {
+  width: 27%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.calendar:hover path {
+  fill: #236d47;
+  transition: 0.2s linear;
+}
+
+.letter:hover path {
+  fill: #236d47;
+  transition: 0.2s linear;
+}
+
+.compas:hover path {
+  fill: #236d47;
+  transition: 0.2s linear;
+}
+
+.compas {
+  padding-right: 25px;
+  border-right: 1px solid #828282;
+}
+
+.input_assets > p {
+  padding-right: 79px;
+}
+
+.reg_ling {
+  text-decoration: none;
+  color: #fff;
+}
+
+.reg_ling:hover {
+  color: #236d47;
+  transition: 0.2s linear;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 112px;
+  background-color: #fff;
+  width: 444px;
+  height: 584px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+.form_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 324px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.sign_up {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.login {
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #3cb878;
+}
+
+.login:hover {
+  border-bottom: 1px solid #3cb878;
+  transition: 0.5s linear;
+}
+
+.sign_up::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: -60px;
+  /* bottom: -2px; */
+  background-color: #3cb878;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.btn_link {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end;
+  width: 150px; */
+  justify-content: space-around;
+  width: 132px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.btn_link:first-child {
+  background-color: #305db8;
+}
+
+.btn_link:first-child:hover {
+  background-color: #022263;
+  transition: 0.5s;
+}
+
+.btn_link:last-child {
+  background-color: #df4a32;
+}
+
+.btn_link:last-child:hover {
+  background-color: #ab1f09;
+  transition: 0.5s;
+}
+.f {
+  left: 16px;
+  top: 12px;
+  height: 24px;
+  padding-right: 10px;
+  border-right: 1px solid #2c56aa;
+}
+
+.G {
+  left: 16px;
+  top: 12px;
+  height: 19px;
+  padding-right: 7px;
+  border-right: 1px solid #cd442e;
+}
+
+.or-line-wrapper {
+  width: 100%;
+}
+
+.or-line {
+  width: 100%;
+  margin-top: 31px;
+  text-align: center;
+  color: #848484;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.or-line::before {
+  vertical-align: middle;
+  display: inline-block;
+  height: 2px;
+  box-sizing: content-box;
+  width: 150px;
+  background: #f2f2f2;
+  content: "";
+}
+
+.or-line::after {
+  vertical-align: middle;
+  width: 150px;
+  height: 2px;
+  content: "";
+  background-color: #f2f2f2;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+.form_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_data > label:nth-child(5) {
+  margin-bottom: 10px;
+}
+
+.data_1 {
+  /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+  outline: none; */
+}
+
+.data {
+  background-color: #fff;
+  margin-top: 13px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  color: #434343;
+  font-family: Ubuntu;
+  width: 322px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 14px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.data:focus {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+  outline: none;
+}
+
+.form_data > label:nth-child(6) {
+  width: 100%;
+
+  display: flex;
+  /* align-items: center; */
+  color: #434343;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+/* .checkbox-style {
+  position: absolute;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+} */
+
+.checkbox::before {
+  cursor: pointer;
+  visibility: visible;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #f2f2f2;
+}
+
+.checkbox:checked::after {
+  cursor: pointer;
+  visibility: visible;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 6px;
+  border-left: 2px solid #01813f;
+  border-bottom: 2px solid #01813f;
+  transform: rotate(305deg) skew(-15deg);
+}
+
+/* #checkbox + .checkbox-style::before {
+  visibility: visible;
+  content: "";
+  color: #01813f;
+  background-color: #fff;
+  position: absolute;
+  display: block;
+  right: 3px;
+  bottom: 2px;
+} */
+
+/* .checkbox:checked + .checkbox-style {
+  background-image: url("../images/check.svg");
+} */
+
+#checkbox {
+  position: relative;
+  visibility: hidden;
+  margin: 0;
+  margin-right: 16px;
+}
+
+#checkbox:focus {
+  background-color: #fff;
+}
+
+.t_and_c {
+  margin-left: 2px;
+  vertical-align: inherit;
+  text-decoration: none;
+  color: #3cb878;
+}
+
+.t_and_c:hover {
+  text-decoration: underline;
+  color: #3cb878cc;
+  transition: 0.2s;
+}
+
+#btn {
+  background-color: #3cb878cc;
+  width: 324px;
+  height: 46px;
+  margin: 9px 0 38px;
+  border-radius: 4px;
+  border-color: #3cb878cc;
+  border-style: none;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #01813f;
+  transition: 0.2s linear;
+}
