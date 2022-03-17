@@ -1,5 +1,6 @@
 # Registration-page
 Registration page pet project
+Link: https://miss-kiparis.github.io/Registration-page/
 
 Выполнены следующие технические требования к верстке
 
