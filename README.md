@@ -1,5 +1,4 @@
 ###Registration page landing
-H1 Header (Underline)
 =============
 
 
